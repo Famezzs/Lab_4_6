@@ -50,7 +50,7 @@ int main()
 	for (n = 1; n <= 10; n++)
 	{
 		P = 1;
-		for (k = 1; k <= 10; k++)
+		for (k = 1; k <= n; k++)
 		{
 			P *= sin(k + n);
 		}
