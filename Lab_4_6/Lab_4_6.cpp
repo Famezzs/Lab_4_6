@@ -62,7 +62,7 @@ int main()
 	for (n = 10; n >= k; n--)
 	{
 		P = 1;
-		for (k = 10; k >= 1; k--)
+		for (k = n; k >= 1; k--)
 		{
 			P *= sin(k + n);
 		}
